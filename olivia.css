@@ -1,0 +1,67 @@
+* {
+  background-color: #b5d1ff;
+}
+p, ul {
+  font-family: "verdana";
+  font-size: 18px;
+}
+a:hover {
+  color: yellow;
+}
+#wrapper1 {
+  position: relative;
+  text-align: center;
+  height: 150px;
+  width: auto;
+}
+#wrapper2 {
+  position: relative;
+  padding-left: 80px;
+  height: 580px;
+  width: auto;
+}
+#family {
+  position: absolute;
+}
+#info {
+  position: absolute;
+  left: 500px;
+  right: 80px;
+}
+#wrapper3 {
+  position: relative;
+  padding-left: 200px;
+  height: 600px;
+  width: auto;
+}
+#list {
+  position: absolute;
+}
+#horse {
+  position: absolute;
+  left: 700px;
+  right: 80px;
+}
+#wrapper4 {
+  position: relative;
+  padding-left: 80px;
+  height: 700px;
+  width: auto;
+}
+#waterfall {
+  position: absolute;
+  text-align: center;
+}
+#beach {
+  position: absolute;
+  left: 500px;
+  text-align: center;
+}
+#eiffelTower {
+  position: absolute;
+  left: 930px;
+  text-align: center;
+}
+#waterfall:hover, #beach:hover, #eiffelTower:hover {
+  filter: grayscale(100%);
+}
