@@ -1,0 +1,19 @@
+/*This is the global type. What goes here applies to the whole webpage*/
+* {
+  background-color: #c299ff;
+}
+
+p {
+  font-family: "verdana";
+  color: white;
+}
+
+/*Below styles a specific id*/
+#orange {
+  color: orange;
+}
+
+/*below is a class*/
+.black {
+  color: black;
+}
